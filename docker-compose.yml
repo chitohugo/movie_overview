@@ -1,0 +1,11 @@
+services:
+  box_movie:
+    build: .
+    container_name: box_movie
+    stdin_open: true
+    tty: true
+    command: [ "python", "-m", "app" ]
+    env_file:
+      - .env
+    volumes:
+      - .:/app
