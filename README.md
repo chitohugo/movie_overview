@@ -1,4 +1,4 @@
-# MovieInfo LLM App
+# MovieOverview App
 
 ## Descripción
 
