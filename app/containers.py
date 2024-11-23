@@ -3,11 +3,9 @@ import logging.config
 from dependency_injector import containers, providers
 from requests import Session
 
-from app.adaptors.chat_open_ai import ChatOpenAIAdapter
-from app.services.llm_service import LLMService
-from app.services.movie_service import MovieService
-from app.services.request_service import RequestService
-from app.utils.template_manager import TemplateManager
+from app.adaptors import ChatOpenAIAdapter
+from app.services import RequestService, LLMService, MovieService
+from app.utils import TemplateManager
 
 
 class Container(containers.DeclarativeContainer):

@@ -1,5 +1,5 @@
 from app.adaptors.chat_open_ai import ChatOpenAIAdapter
-from app.services.base_service import BaseService
+from app.services import BaseService
 from app.utils.llm_abstract import LLMAbstract
 from app.utils.template_manager import TemplateManager
 

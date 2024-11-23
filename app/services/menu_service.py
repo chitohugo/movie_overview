@@ -1,4 +1,4 @@
-from app.services.base_service import BaseService
+from .base_service import BaseService
 
 
 class MenuService(BaseService):

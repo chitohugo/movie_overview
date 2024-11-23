@@ -1,6 +1,5 @@
-from app.services.base_service import BaseService
-from app.services.movie_service import MovieService
-
+from .base_service import BaseService
+from .movie_service import MovieService
 
 class BotService(BaseService):
     def __init__(self, movie_service: MovieService) -> None:

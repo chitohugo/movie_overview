@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class RequestServiceAbstract(ABC):
+class RequestAbstract(ABC):
     @abstractmethod
     def get(self, url: str):
         pass

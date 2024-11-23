@@ -1,9 +1,9 @@
 from requests import Session
 
-from app.utils.request_abstract import RequestServiceAbstract
+from app.utils import RequestAbstract
 
 
-class RequestService(RequestServiceAbstract):
+class RequestService(RequestAbstract):
     def __init__(self, token: str, session: Session) -> None:
         self.token = token
         self._session = session

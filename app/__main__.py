@@ -3,8 +3,7 @@ import sys
 from dependency_injector.wiring import Provide, inject
 
 from app.containers import Container
-from app.services.llm_service import LLMService
-from app.services.movie_service import MovieService
+from app.services import MovieService, LLMService
 
 
 @inject

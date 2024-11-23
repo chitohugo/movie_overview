@@ -1,6 +1,5 @@
-
-from app.services.base_service import BaseService
-from app.services.request_service import RequestService
+from .base_service import BaseService
+from .request_service import RequestService
 
 
 class MovieService(BaseService):
